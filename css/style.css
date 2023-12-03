@@ -1,0 +1,39 @@
+body{
+    background-color: #fff;
+  }
+  
+  .image-block1,.image-block2,.image-block3 {
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    padding: 10px 50px;
+    background-color: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border: 1px solid #fff;
+  }
+  
+  .button:hover {
+    border: 2px solid #fff;
+  }
+  
+  #carouselExample {
+    width: 80%; 
+    margin: auto;
+  }
+  #carouselExample .carousel-inner .carousel-item img {
+    width: 80%; 
+    margin: auto;
+  }
